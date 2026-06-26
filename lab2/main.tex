@@ -1,0 +1,80 @@
+% !TEX program = lualatex
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Настройки для LuaLaTeX
+\usepackage{fontspec}
+\defaultfontfeatures{Renderer=Basic, Ligatures=TeX}
+\newfontfamily\cyrillicfonttt{CMU Typewriter Text}
+\newfontfamily\cyrillicfont{CMU Sans Serif}
+\setmainfont{CMU Sans Serif}
+\setsansfont{CMU Sans Serif}
+\setmonofont{CMU Typewriter Text}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setotherlanguages{english}
+
+% Настройки ModernCV
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+\nopagenumbers{}
+
+% Настройка полей
+\usepackage[scale=0.75]{geometry}
+
+\firstname{Степанова}
+\familyname{Анна}
+\title{Разработчик Python}
+\address{Санкт-Петербург}{}{Россия}
+\mobile{+7 (981) 122-43-93}
+\email{st.ann0@yandex.ru}
+\social[telegram]{slouchdog}
+\social[github]{Stepanova-Anna} 
+
+% Начало документа
+\begin{document}
+\makecvtitle
+
+\section{О себе}
+Студентка 3 курса по направлению «Информатика и вычислительная техника», 
+активно развиваюсь в направлении Python-разработки. Ищу позицию стажера, 
+чтобы применить академические знания и практические навыки (Python, Git, SQL, ООП) 
+в реальных проектах. Имею опыт разработки Telegram-бота в рамках производственной 
+практики. Отличаюсь аналитическим складом ума, быстрой обучаемостью и 
+нацеленностью на результат. Готова решать сложные задачи и расти как 
+специалист в сильной команде.
+
+\section{Образование}
+\cventry{2023--2027}{Специализация: 09.03.01 «Информатика и вычислительная техника»}{РГПУ им. А. И. Герцена}{Санкт-Петербург}{}{
+\begin{itemize}
+  \item Дополнительная специализация: «Технологии разработки программного обеспечения и обработки больших данных»
+  \item Форма обучения: Очная
+\end{itemize}}
+
+\section{Опыт работы}
+\cventry{Февраль 2024}{Практикант}{ООО «Галактика»}{}{}{
+\begin{itemize}
+  \item Разработала Telegram-бота на Python (оценка «отлично»)
+\end{itemize}}
+
+\cventry{Сентябрь 2024}{Практикант}{ООО «Галактика»}{}{}{
+\begin{itemize}
+  \item Участвовала в создании веб-сайта для коммерческого продукта (оценка «отлично»)
+\end{itemize}}
+
+\section{Ключевые навыки}
+\cvitem{Языки программирования}{Python, Java, C, SQL}
+\cvitem{Базы данных}{MySQL}
+\cvitem{Инструменты}{Git, ООП, алгоритмы и структуры данных}
+\cvitem{Веб-разработка}{Основы разработки веб-приложений, клиент-серверное взаимодействие}
+\cvitem{Аналитические способности}{Аналитический склад ума, внимательность к деталям, развитое логическое и стратегическое мышление, опыт обработки и анализа больших данных}
+\cvitem{Обучаемость}{Целеустремленность, быстрая обучаемость, усидчивость, готовность к обучению и решению сложных задач, изучение новых технологий и фреймворков}
+\cvitem{Командная работа}{Умение работать в команде, подтвержденное опытом участия в хакатонах и IT-соревнованиях}
+
+\section{Сертификаты и достижения}
+\cvitem{2024}{Интерактивный тренажер по SQL (Stepik, сертификат с отличием)}
+\cvitem{2024}{Безопасность в интернете (Stepik, сертификат с отличием)}
+\cvitem{}{1 разряд по шахматам}
+\cvitem{}{Участие в хакатонах и IT-соревнованиях}
+
+\end{document}
